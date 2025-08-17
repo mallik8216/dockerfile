@@ -1,3 +1,3 @@
 FROM almalinux:9
-CMD  ["googlel.com"]
+CMD  ["google.com"]
 ENTRYPOINT [ "ping" ]
