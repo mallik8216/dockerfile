@@ -1,3 +1,3 @@
 FROM almalinux:9
-RUN UERADD EXPENSE
+RUN USERADD EXPENSE
 CMD [ "Sleep","100" ]
