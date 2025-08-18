@@ -4,9 +4,9 @@ ENV course="Devops and Amazon" \
     trainer="shiva yadav" \
     duration="3months"
  ARG username=shivayadav
-RUN echo "Hello User: ${username}", image version: ${version}" > /tmp/devops.txt
+RUN echo "Hello User: ${username}, image version: ${version}"  > /tmp/devops.txt
 #RUN echo "Hello ${trainer}" > /var/tmp/devops.txt
-#CMD [ "sleep","100" ]
+CMD [ "sleep","1800" ]
 
 
 
