@@ -5,7 +5,7 @@ ENV course="Devops and Amazon" \
  ARG username=shivayadav
 RUN echo "Hello User: ${username}"
 #RUN echo "Hello ${trainer}" > /var/tmp/devops.txt
-CMD [ "sleep","100" ]
+#CMD [ "sleep","100" ]
 
 
 
