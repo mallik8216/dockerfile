@@ -2,7 +2,7 @@ FROM almalinux:9
 ENV course="Devops and Amazon" \
     trainer="shiva yadav" \
     duration="3months"
- ARG USERNAME=shivayadav
+ ARG username=shivayadav
 RUN echo "Hello User: ${username}"
 #RUN echo "Hello ${trainer}" > /var/tmp/devops.txt
 CMD [ "sleep","100" ]
