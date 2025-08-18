@@ -6,3 +6,6 @@
 FROM almalinux:9
 CMD  ["google.com"]
 ENTRYPOINT [ "ping" ]
+
+
+# can use entrypoint point to inputs of CMD.

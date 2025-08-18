@@ -5,4 +5,4 @@ ADD https://raw.githubusercontent.com/mallik8216/shellscript/refs/heads/main/01-
 RUN chmod +r /usr/share/nginx/html/index.html
 ADD sample.tar /tmp
 CMD  ["nginx" , "-g","daemon off ;"]
-ENTRYPOINT [ "docker images" ]
+#ENTRYPOINT [ "docker images" ]
