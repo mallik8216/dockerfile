@@ -1,5 +1,5 @@
 FROM almalinux:9
 RUN  dnf install -y nginx
 #Expose for only inforamation
-EXPOSE 801
+EXPOSE 80
 CMD  ["nginx" , "-g","daemon off ;"] 
