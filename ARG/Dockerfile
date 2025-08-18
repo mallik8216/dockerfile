@@ -1,9 +1,9 @@
 FROM almalinux:9
 ENV course="Devops and Amazon" \
     trainer= "shiva yadav" \
-    duration="3 months"
+    duration="3months"
 
-RUN  echo "Hello user: ${trainer}" > /var/tmp/devops.txt
+RUN  echo "Hello user ${username}" > /var/tmp/devops.txt
 
 
 
