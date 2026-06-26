@@ -5,6 +5,7 @@
 # RUN echo "hello from mydir-demo" > hello.txt
 # CMD [ "sleep","100" ]
 
+# CD wont work to change directory instead of this Go with WORKDIR
 
 
 FROM almalinux:9
